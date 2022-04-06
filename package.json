@@ -2,8 +2,8 @@
   "name": "on-site-interview",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "5.2.1",
-    "activestorage": "^5.2.1",
+    "@rails/webpacker": "5.4.3",
+    "activestorage": "^5.2.7",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "lodash": "^4.17.11",
     "prop-types": "^15.7.2",
