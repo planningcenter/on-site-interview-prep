@@ -1,0 +1,23 @@
+version: 2.1
+
+orbs:
+  rails: planningcenter/rails@2.2.0
+
+jobs:
+  build:
+    executor:
+      name: rails/default
+      ruby-version: "2.7"
+    steps:
+      - checkout
+      - rails/bundle
+      - rails/yarn
+      - rails/precompile-assets
+
+workflows:
+  default:
+    jobs:
+      - build:
+          context:
+            - GitHub Packages
+            - AWS ECR (circleci-tools)
