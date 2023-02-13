@@ -12,7 +12,7 @@ working on together.
 
 ## Install the dependencies
 
-1. This app uses **Ruby 2.7.4**. A recent version of **Node** is also
+1. This app uses **Ruby 3.2.0**. A recent version of **Node** is also
    required to install `yarn` and the app's javascript dependencies.
 
 1. `bundle install`
