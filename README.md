@@ -21,10 +21,11 @@ working on together.
 
 ## Make sure everything is working
 
+1. `bundle exec rails db:prepare`
+
 1. `bundle exec rails server`
 
-1. Visit http://0.0.0.0:3000 in your browser. If you see both
-   "Rails works!" and "React works!", you are all set!
+1. Visit http://0.0.0.0:3000 in your browser. If you see both "Rails works!" and "React works!", you are all set!
 
 ## HELP!
 
